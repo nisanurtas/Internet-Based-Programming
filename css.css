@@ -119,3 +119,54 @@ nav {
     0% { width: 0px; opacity: 1;}
     100% { width: 14px; opacity: 1;}
   }
+  .hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+    max-width: 68.75rem;
+    margin: auto;
+  }
+  .hero img{
+    height: 700px;
+    width: 800px;
+  }
+  .bio {
+    width: 25rem;
+    padding: 0.625rem;
+    border-radius: 6px;
+    box-shadow: 0px 2px 15px 2px var(--primary-shadow);
+  }
+  
+  .bio h1 {
+    margin-bottom:var(--bottom-margin);
+  }
+  .bio p {
+    line-height: var(--line-height);
+    padding: 0.3rem 0;
+  }
+
+  .skills {
+    max-width: 68.75rem;
+    margin: auto;
+    text-align: center;
+    margin-top: 2.5rem;
+  }
+  .skill-header {
+    margin-bottom: 1rem;
+  }
+  .skill-wrapper {
+    padding: 1.25rem;
+
+  }
+  .icon {
+    width:11.87rem ;
+    height: 11.25rem;
+  }
+  .icon-card {
+    background-color:#fff ;
+    border-radius: 11px;
+    box-shadow: 0 3px 10px var(--secondary-shadow);
+    padding: 20px;
+    margin: 10px;
+  }
